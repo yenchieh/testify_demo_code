@@ -1,0 +1,11 @@
+package: bowery-golang_testing
+import:
+- package: github.com/labstack/echo
+  version: v3.2.1
+  subpackages:
+  - middleware
+testImport:
+- package: github.com/stretchr/testify
+  version: v1.1.4
+  subpackages:
+  - assert
